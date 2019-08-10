@@ -97,7 +97,7 @@ def restart():
     print("Total human score is:",human_score)
     print("Total Computer score is:",computer_score)
     print("Total Tie is:",tie)
-    if computer_score >= human_score:
+    if computer_score > human_score:
         print("computer WON!!!!")
     elif computer_score == human_score:
         print("TIE")
